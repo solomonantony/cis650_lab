@@ -1,1 +1,2 @@
-'_'.join(['ab', 'pq', 'rs'])
+print('_'.join(['ab', 'pq', 'rs']))
+

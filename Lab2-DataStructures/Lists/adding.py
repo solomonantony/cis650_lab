@@ -1,7 +1,7 @@
 c = [-45, 6, 0, 72, 1543]
 c += [10]
 print(c)
-letters1 = list('spam') #unpack the string into a list
+letters1 = list('sp am') #unpack the string into a list
 print(letters1)
 print(letters1+['a','b']) # appends two items to letters1
 
