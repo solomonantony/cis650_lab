@@ -1,0 +1,6 @@
+"goooooggggle yourself".count('g')
+"goooooggggle yourself".find('g')
+"goooooggggle yourself".rfind('g')
+"google yourself".index('g')
+print("google yourself".index('o'))
+"google yourself".rindex('o')
