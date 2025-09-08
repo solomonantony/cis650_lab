@@ -2,6 +2,7 @@
 
 c = [45, 26, 10, 72, 43]
 c.sort() #modified the list
+help(c.sort)
 c.sort(reverse=True) #sorts in descending order
 c = [45, 26, 10, 72, 43]
 sorted(c) #creates a sorted c; original c is unaffected
