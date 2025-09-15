@@ -6,11 +6,11 @@ Each key can have one associated value A A A and and
 In contrast with lists that sequentially number each item (the index), dictionaries allow you to name each item
 """
 words_dict = dict()
-for word in words:
-    if word not in words_dict:
-        print(f'{word} added')
-        words_dict[word] = 1
+for character in words:
+    if character not in words_dict:
+        print(f'{character} added')
+        words_dict[character] = 1
     else:
-        words_dict[word] = words_dict[word] + 1
+        words_dict[character] = words_dict[character] + 1
 print(words_dict)
 #Modify this code so that punctuations are skipped

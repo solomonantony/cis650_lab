@@ -10,8 +10,7 @@ dictionary2 = dict([('sape', 4139), ('guido', 4127), ('jack', 4098)])
 print('dictionary2', dictionary2)
 dictionary3 = dict(sape=4139, guido=4127, jack=4098)
 print('dictionary3', dictionary3)
-country_codes = {'Finland': 'fi', 
-                 'South Africa': 'za', 'Nepal': 'np'}
+country_codes = {'Finland': 'fi','South Africa': 'za', 'Nepal': 'np'}
 print('country_codes', country_codes)
 """
 Using zip to create a dictionary
