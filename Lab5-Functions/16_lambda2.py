@@ -2,7 +2,7 @@
 def before_lambda(n=2):
   x = 4
   return x ** n
-print(before_lambda(3))
+print('before lambda', before_lambda(3))
 
 #this function returns a lambda
 def func():

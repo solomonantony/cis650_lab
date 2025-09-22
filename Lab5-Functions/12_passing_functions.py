@@ -3,4 +3,4 @@ def sqr(n):
 sqr2 = sqr  #making a copy of the function
 print(sqr2(5))  #using the copy
 del(sqr)  #deleting the original function
-print(sqr2(5))
+print(sqr2(3))

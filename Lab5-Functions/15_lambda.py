@@ -1,8 +1,8 @@
-mf = lambda x: x**2
+square_lambda = lambda x: x**2
 
-print(mf(3))
+print(square_lambda(3))
 
-sum2 = lambda x,y: x+y
+sum_lambda = lambda x,y: x+y
 
-print(sum2(10,5))
-#create a lambda that takes two arguments and return the sum of two
+print(sum_lambda(10,5))
+#create a lambda that takes two arguments and returns the difference
