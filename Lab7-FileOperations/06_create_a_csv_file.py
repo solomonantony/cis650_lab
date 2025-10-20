@@ -6,4 +6,5 @@ with open('accounts.csv', mode='w', newline='') as accounts:
     writer.writerow([300, 'White', 0.00])
     writer.writerow([400, 'Stone', -42.16])
     writer.writerow([500, 'Rich', 224.62])
+print('written records to accounts.csv')
     
