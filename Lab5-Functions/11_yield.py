@@ -8,3 +8,4 @@ for i in squares(5):
   input('Press Enter to continue...')
   print(f'i = {i}')
   
+  

@@ -1,4 +1,4 @@
-# This script demonstrates basic error handling in Python.
+
 while True:
     try:
         value = int(input('Enter an integer: ')) 
