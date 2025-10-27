@@ -9,5 +9,5 @@ def printdir(dir):
     else:
         print('File path was good')
 
-printdir('C:/Users/santony/Document/')
+printdir('C:/Users/santony/Documents/')
 

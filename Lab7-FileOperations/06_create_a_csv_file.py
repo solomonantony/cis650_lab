@@ -1,6 +1,7 @@
 import csv
 with open('accounts.csv', mode='w', newline='') as accounts:
     writer = csv.writer(accounts)
+    writer.writerow(["Account number", "Name", "Balance"])
     writer.writerow([100, 'Jones', 24.98])
     writer.writerow([200, 'Doe', 345.67])
     writer.writerow([300, 'White', 0.00])
