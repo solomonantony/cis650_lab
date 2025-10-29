@@ -14,4 +14,4 @@ aqi = {
     'high':[50, 100, 150, 200, 300, 999]
     }
 df2 = pd.DataFrame(aqi)
-print(df2.iloc[1][1])
+print(df2.iloc[5][1])

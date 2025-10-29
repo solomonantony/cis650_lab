@@ -14,5 +14,7 @@ grades = {
     'high':[50, 100, 150, 200, 300, 999]
     }
 df2=pd.DataFrame(grades)
-print(df2.loc[0])
+print('display 0th row\n', df2.loc[0])
+print('display group of rows...\n', df2.loc[0:2, 'color'])
 
+print(type(df2.loc[0:2, 'color']))

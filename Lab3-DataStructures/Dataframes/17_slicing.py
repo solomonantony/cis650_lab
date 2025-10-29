@@ -14,4 +14,4 @@ aqi = {
     }
 df2 = pd.DataFrame(aqi)
 print(df2)
-print(df2.loc[0:1])
+print(df2.loc[3:5])

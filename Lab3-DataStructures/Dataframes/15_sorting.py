@@ -15,5 +15,5 @@ aqi = {
     'high':[50, 100, 150, 200, 300, 999]
     }
 df2 = pd.DataFrame(aqi)
-print(df2.sort_values('color', ascending=False))
+print('sorted on color...\n', df2.sort_values('color', ascending=False))
 print(df2.sort_values('concern'))

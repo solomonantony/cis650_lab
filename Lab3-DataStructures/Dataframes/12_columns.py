@@ -16,5 +16,5 @@ grades = {
     'high':[50, 100, 150, 200, 300, 999]
     }
 df2=pd.DataFrame(grades)
-
-print(df2['low'])
+print('all the columns...\n', df2)
+print('only two selected column...\n', df2[['low','high']])
