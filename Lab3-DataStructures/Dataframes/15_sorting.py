@@ -1,5 +1,8 @@
 """
 To sort a DataFrame, use the sort_values() method
+The sort_values() method has the named parameter inplace
+Can sort a DataFrame by its rows or columns, based on their indices or values
+Sort the rows by their indices in descending order using sort_index and its keyword argument ascending=False
 """
 import pandas as pd #alias
 import functions

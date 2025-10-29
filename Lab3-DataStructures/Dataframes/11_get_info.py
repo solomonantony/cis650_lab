@@ -1,3 +1,8 @@
+"""
+Methods -- head() - return the first rows -- tail() - return the last rows -- info() – displays types and counts of each data column
+Function -- len() - how many rows
+Property -- shape – how many rows and columns
+"""
 import pandas as pd #alias
 import functions
 adict = {'column1': [1, 2, 3], 'column2': [4, 5, 6]}
