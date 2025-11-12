@@ -1,5 +1,6 @@
+path = "C:/Users/santony/Documents/Learning/CIS650/cis650_lab/Lab10-WebApplications"
 filename = 'CDRates.html'
-f = open(filename, 'r') #create a file handle
+f = open(path+"/"+filename, 'r') #create a file handle
 contents = f.read() #read the file and store the contents to a variable
 
 from bs4 import BeautifulSoup
