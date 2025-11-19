@@ -4,7 +4,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 url = 'https://www.nfl.com/stats/player-stats/'
 page = requests.get(url)
-#page = page.decode()
+
 dfs = pd.read_html(page)
 print(len(dfs))
 dfs[0].to_csv('sp500-b.csv')

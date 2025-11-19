@@ -17,7 +17,6 @@ links = soup.find_all('a')
 for link in links:
   print(link)
   # provide the page's content to Beautiful Soup, for it to parse
-
 #print(soup.prettify())
 #use find_all to find tags
 soup.find_all('span')[0]
