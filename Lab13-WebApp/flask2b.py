@@ -11,6 +11,23 @@ def hello():
 def getMyData():
     return jsonify({'myData':myData})
 
+@app.route('/quarter/<quarter>')
+def get_quarter_data(quarter):
+    result = ''
+    if quarter in ['Q1', 'Q2', 'Q3']:
+        for data_line in myData:
+            result = result + f'{data_line["Customer"]}: {data_line[quarter]}<br>'
+        return result
+    else:
+        return "Invalid quarter number"
+# create a decorator that will respond with all quarter data for a given customer
+@app.route('/customer/<customer>')
+def get_customer_data(customer):
+    for customer_data in myData:
+        if customer_data['Customer'] == customer:
+            return jsonify(customer_data)
+    return "Customer not found"    
+
 if __name__ == "__main__":
     app.debug = True
     app.run(port=5000)
